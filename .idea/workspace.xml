@@ -4,22 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f8b5fe3-2dce-46cd-9e8e-0a2d095edbba" name="更改" comment="" />
+    <list default="true" id="1ebeb472-6f66-4c3b-b2d2-99bc8f74931d" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PipelineAndFilterPattern/ColumnFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PipelineAndFilterPattern/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PipelineAndFilterPattern/PipelineAndFilterPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PipelineAndFilterPattern/PipelineAndFilterPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/NQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/NQueens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/input.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -38,62 +37,43 @@
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2lUy8a9midRoimwX0UYbMUSJGtk" />
+  <component name="ProjectId" id="2lWHVU77BNyN47DvesOG16jcKzc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.PipelineAndFilterPattern (1).executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.PipelineAndFilterPattern.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.PipelineAndFilterPattern.executor": "Run"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="PipelineAndFilterPattern" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="impl" />
-    </key>
-  </component>
-  <component name="RunManager" selected="应用程序.PipelineAndFilterPattern (1)">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="nQueens" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager">
     <configuration name="PipelineAndFilterPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PipelineAndFilterPattern.PipelineAndFilterPattern" />
       <module name="nQueens" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PipelineAndFilterPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PipelineAndFilterPattern.PipelineAndFilterPattern" />
-      <module name="nQueens" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PipelineAndFilterPattern.Filter.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.PipelineAndFilterPattern (1)" />
         <item itemvalue="应用程序.PipelineAndFilterPattern" />
-        <item itemvalue="应用程序.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -108,18 +88,29 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="3f8b5fe3-2dce-46cd-9e8e-0a2d095edbba" name="更改" comment="" />
-      <created>1725248792397</created>
+      <changelist id="1ebeb472-6f66-4c3b-b2d2-99bc8f74931d" name="更改" comment="" />
+      <created>1725288936915</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1725248792397</updated>
-      <workItem from="1725248793627" duration="4052000" />
-      <workItem from="1725265295135" duration="654000" />
-      <workItem from="1725265959001" duration="6784000" />
+      <updated>1725288936915</updated>
+      <workItem from="1725288937930" duration="1175000" />
+      <workItem from="1725329496324" duration="4072000" />
+      <workItem from="1725352530775" duration="67000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
