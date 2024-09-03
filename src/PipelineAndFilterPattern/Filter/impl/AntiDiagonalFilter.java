@@ -14,9 +14,6 @@ public class AntiDiagonalFilter implements Filter {
         for (int i = 0; i < board.length; i++) {
             if (temp.get(i+board[i])==null)
                 temp.put(i+board[i], true);
-
-//            if(!temp.get(i+board[i]))
-//                temp.put(i+board[i], true);
             else
                 return false;
         }

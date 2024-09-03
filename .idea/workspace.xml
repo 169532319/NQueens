@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ebeb472-6f66-4c3b-b2d2-99bc8f74931d" name="更改" comment="">
+    <list default="true" id="1ebeb472-6f66-4c3b-b2d2-99bc8f74931d" name="更改" comment="完成管道过滤器风格">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PipelineAndFilterPattern/ColumnFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PipelineAndFilterPattern/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CallAndReturnPattern/CallAndReturnPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CallAndReturnPattern/CallAndReturnPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PipelineAndFilterPattern/Filter/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PipelineAndFilterPattern/Filter/Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PipelineAndFilterPattern/Filter/impl/AntiDiagonalFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PipelineAndFilterPattern/Filter/impl/AntiDiagonalFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PipelineAndFilterPattern/Filter/impl/ColumnFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PipelineAndFilterPattern/Filter/impl/ColumnFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PipelineAndFilterPattern/PipelineAndFilterPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PipelineAndFilterPattern/PipelineAndFilterPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/NQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/NQueens.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/input.java" afterDir="false" />
@@ -16,6 +18,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,10 +63,11 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true",
-    "应用程序.PipelineAndFilterPattern.executor": "Run"
+    "应用程序.PipelineAndFilterPattern.executor": "Run",
+    "应用程序.test.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="应用程序.test">
     <configuration name="PipelineAndFilterPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PipelineAndFilterPattern.PipelineAndFilterPattern" />
       <module name="nQueens" />
@@ -71,8 +81,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="nQueens" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.test" />
         <item itemvalue="应用程序.PipelineAndFilterPattern" />
       </list>
     </recent_temporary>
@@ -96,7 +114,26 @@
       <workItem from="1725288937930" duration="1175000" />
       <workItem from="1725329496324" duration="4072000" />
       <workItem from="1725352530775" duration="67000" />
+      <workItem from="1725352632554" duration="1096000" />
+      <workItem from="1725372476245" duration="1293000" />
     </task>
+    <task id="LOCAL-00001" summary="完成管道过滤器风格">
+      <option name="closed" value="true" />
+      <created>1725352750103</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725352750103</updated>
+    </task>
+    <task id="LOCAL-00002" summary="完成管道过滤器风格">
+      <option name="closed" value="true" />
+      <created>1725352802851</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725352802851</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,5 +149,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成管道过滤器风格" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成管道过滤器风格" />
   </component>
 </project>

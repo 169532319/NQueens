@@ -4,6 +4,7 @@ import PipelineAndFilterPattern.Filter.impl.AntiDiagonalFilter;
 import PipelineAndFilterPattern.Filter.impl.ColumnFilter;
 import PipelineAndFilterPattern.Filter.impl.MainDiagonalFilter;
 import common.NQueens;
+import common.input;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +17,7 @@ public class PipelineAndFilterPattern extends NQueens {
      * 由于使用一维数组存储棋盘
      * 故不需要行过滤器
      */
-    public static List<int[]> generateBoards(int n, int index, int[] array) {
+    public List<int[]> generateBoards(int n, int index, int[] array) {
         List<int[]> numbers = new ArrayList<>();
         if (index == n) {
             // 当所有位置都被赋值后，添加数组到列表中
@@ -35,7 +36,7 @@ public class PipelineAndFilterPattern extends NQueens {
      * 由于是先生成所有可能的棋盘然后过滤
      * 因此当输入规模大于等于9时就会爆内存
      */
-    public static void main(String[] args) {
+    public int totalNQueens() {
         List<int[]> boards = generateBoards(n, 0, new int[n]);
         ColumnFilter columnFilter = new ColumnFilter();
         MainDiagonalFilter mainDiagonalFilter = new MainDiagonalFilter();
@@ -50,6 +51,6 @@ public class PipelineAndFilterPattern extends NQueens {
                 continue;
             count++;
         }
-        System.out.println(count);
+        return count;
     }
 }
